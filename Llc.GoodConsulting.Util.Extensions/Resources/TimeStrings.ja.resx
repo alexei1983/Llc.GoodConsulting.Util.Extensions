@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="JustNow" xml:space="preserve">
+    <value>たった今</value>
+  </data>
+  <data name="SecondsAgo" xml:space="preserve">
+    <value>{0} 秒前</value>
+  </data>
+  <data name="MinutesAgo" xml:space="preserve">
+    <value>{0} 分前</value>
+  </data>
+  <data name="HoursAgo" xml:space="preserve">
+    <value>{0} 時間前</value>
+  </data>
+  <data name="Yesterday" xml:space="preserve">
+    <value>昨日</value>
+  </data>
+  <data name="DaysAgo" xml:space="preserve">
+    <value>{0} 日前</value>
+  </data>
+  <data name="MonthsAgo" xml:space="preserve">
+    <value>{0} か月前</value>
+  </data>
+  <data name="YearsAgo" xml:space="preserve">
+    <value>{0} 年前</value>
+  </data>
+  <data name="InAFewSeconds" xml:space="preserve">
+    <value>数秒後</value>
+  </data>
+  <data name="InSeconds" xml:space="preserve">
+    <value>{0} 秒後</value>
+  </data>
+  <data name="InMinutes" xml:space="preserve">
+    <value>{0} 分後</value>
+  </data>
+  <data name="InHours" xml:space="preserve">
+    <value>{0} 時間後</value>
+  </data>
+  <data name="Tomorrow" xml:space="preserve">
+    <value>明日</value>
+  </data>
+  <data name="InDays" xml:space="preserve">
+    <value>{0} 日後</value>
+  </data>
+  <data name="InMonths" xml:space="preserve">
+    <value>{0} か月後</value>
+  </data>
+  <data name="InYears" xml:space="preserve">
+    <value>{0} 年後</value>
+  </data>
+</root>
