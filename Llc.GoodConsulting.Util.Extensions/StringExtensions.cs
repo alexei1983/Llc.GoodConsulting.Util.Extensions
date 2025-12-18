@@ -353,13 +353,27 @@ namespace Llc.GoodConsulting.Util.Extensions
         /// <returns></returns>
         public static bool ConstantTimeEquals(this string? a, string? b)
         {
-            if (a == null || b == null || a.Length != b.Length)
-                return false;
+            return (a ?? string.Empty).AsSpan()
+                                      .ConstantTimeEquals((b ?? string.Empty).AsSpan());
+        }
 
-            int diff = 0;
-            for (int i = 0; i < a.Length; i++)
-                diff |= a[i] ^ b[i];
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        public static bool ConstantTimeEquals(this ReadOnlySpan<char> a, ReadOnlySpan<char> b)
+        {
+            int diff = a.Length ^ b.Length;
+            int maxLen = Math.Max(a.Length, b.Length);
 
+            for (int i = 0; i < maxLen; i++)
+            {
+                char ca = i < a.Length ? a[i] : '\0';
+                char cb = i < b.Length ? b[i] : '\0';
+                diff |= ca ^ cb;
+            }
             return diff == 0;
         }
 
