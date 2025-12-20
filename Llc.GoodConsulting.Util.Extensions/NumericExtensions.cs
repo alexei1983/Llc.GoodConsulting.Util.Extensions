@@ -64,13 +64,13 @@ namespace Llc.GoodConsulting.Util.Extensions
 
             string key = mod10 switch
             {
-                1 when mod100 != 11 => "Ordinal_1",
-                2 when mod100 != 12 => "Ordinal_2",
-                3 when mod100 != 13 => "Ordinal_3",
-                _ => "Ordinal_N"
+                1 when mod100 != 11 => LocalizationHelper.Ordinal_1,
+                2 when mod100 != 12 => LocalizationHelper.Ordinal_2,
+                3 when mod100 != 13 => LocalizationHelper.Ordinal_3,
+                _ => LocalizationHelper.Ordinal_N
             };
 
-            string format = OrdinalLocalization.Get(key, culture);
+            string format = LocalizationHelper.Get(key, culture);
             return string.Format(format, value);
         }
 

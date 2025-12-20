@@ -22,7 +22,7 @@ namespace Llc.GoodConsulting.Util.Extensions
         /// <returns></returns>
         public static string ToYesNoString(this bool value, CultureInfo culture)
         {
-            return YesNoLocalization.Get(value ? "Yes" : "No", culture);
+            return LocalizationHelper.Get(value ? LocalizationHelper.Yes : LocalizationHelper.No, culture);
         }
 
         /// <summary>

@@ -296,44 +296,44 @@ namespace Llc.GoodConsulting.Util.Extensions
         {
             var now = reference ?? DateTime.UtcNow;
 
-            if (now.Kind != DateTimeKind.Utc)
+            if (now.Kind == DateTimeKind.Local)
                 now = now.ToUniversalTime();
 
-            if (dateTime.Kind != DateTimeKind.Utc)
+            if (dateTime.Kind == DateTimeKind.Local)
                 dateTime = dateTime.ToUniversalTime();
 
             var diff = now - dateTime;
 
             // seconds
             if (diff.TotalSeconds < 5)
-                return TimeLocalization.Get("JustNow", culture);
+                return LocalizationHelper.Get(LocalizationHelper.JustNow, culture);
 
             if (diff.TotalSeconds < 60)
-                return TimeLocalization.Get("SecondsAgo", culture, (int)diff.TotalSeconds);
+                return LocalizationHelper.Get(LocalizationHelper.SecondsAgo, culture, (int)diff.TotalSeconds);
 
             // minutes
             if (diff.TotalMinutes < 60)
-                return TimeLocalization.Get("MinutesAgo", culture, (int)diff.TotalMinutes);
+                return LocalizationHelper.Get(LocalizationHelper.MinutesAgo, culture, (int)diff.TotalMinutes);
 
             // hours
             if (diff.TotalHours < 24)
-                return TimeLocalization.Get("HoursAgo", culture, (int)diff.TotalHours);
+                return LocalizationHelper.Get(LocalizationHelper.HoursAgo, culture, (int)diff.TotalHours);
 
             // days
             if (diff.TotalDays < 2)
-                return TimeLocalization.Get("Yesterday", culture);
+                return LocalizationHelper.Get(LocalizationHelper.Yesterday, culture);
 
             if (diff.TotalDays < 30)
-                return TimeLocalization.Get("DaysAgo", culture, (int)diff.TotalDays);
+                return LocalizationHelper.Get(LocalizationHelper.DaysAgo, culture, (int)diff.TotalDays);
 
             // months (calendar-accurate)
             int months = MonthsBetween(dateTime, now);
             if (months < 12)
-                return TimeLocalization.Get("MonthsAgo", culture, months);
+                return LocalizationHelper.Get(LocalizationHelper.MonthsAgo, culture, months);
 
             // years
             int years = YearsBetween(dateTime, now);
-            return TimeLocalization.Get("YearsAgo", culture, years);
+            return LocalizationHelper.Get(LocalizationHelper.YearsAgo, culture, years);
         }
 
         /// <summary>
@@ -414,40 +414,40 @@ namespace Llc.GoodConsulting.Util.Extensions
                 future = future.ToUniversalTime();
 
             if (future <= now)
-                return TimeLocalization.Get("JustNow", culture);
+                return LocalizationHelper.Get(LocalizationHelper.JustNow, culture);
 
             var diff = future - now;
 
             // seconds
             if (diff.TotalSeconds < 5)
-                return TimeLocalization.Get("InAFewSeconds", culture);
+                return LocalizationHelper.Get(LocalizationHelper.InAFewSeconds, culture);
 
             if (diff.TotalSeconds < 60)
-                return TimeLocalization.Get("InSeconds", culture, (int)diff.TotalSeconds);
+                return LocalizationHelper.Get(LocalizationHelper.InSeconds, culture, (int)diff.TotalSeconds);
 
             // minutes
             if (diff.TotalMinutes < 60)
-                return TimeLocalization.Get("InMinutes", culture, (int)diff.TotalMinutes);
+                return LocalizationHelper.Get(LocalizationHelper.InMinutes, culture, (int)diff.TotalMinutes);
 
             // hours
             if (diff.TotalHours < 24)
-                return TimeLocalization.Get("InHours", culture, (int)diff.TotalHours);
+                return LocalizationHelper.Get(LocalizationHelper.InHours, culture, (int)diff.TotalHours);
 
             // days
             if (diff.TotalDays < 2)
-                return TimeLocalization.Get("Tomorrow", culture);
+                return LocalizationHelper.Get(LocalizationHelper.Tomorrow, culture);
 
             if (diff.TotalDays < 30)
-                return TimeLocalization.Get("InDays", culture, (int)diff.TotalDays);
+                return LocalizationHelper.Get(LocalizationHelper.InDays, culture, (int)diff.TotalDays);
 
             // months (calendar-accurate)
             int months = MonthsBetween(now, future);
             if (months < 12)
-                return TimeLocalization.Get("InMonths", culture, months);
+                return LocalizationHelper.Get(LocalizationHelper.InMonths, culture, months);
 
             // years
             int years = YearsBetween(now, future);
-            return TimeLocalization.Get("InYears", culture, years);
+            return LocalizationHelper.Get(LocalizationHelper.InYears, culture, years);
         }
 
         /// <summary>
