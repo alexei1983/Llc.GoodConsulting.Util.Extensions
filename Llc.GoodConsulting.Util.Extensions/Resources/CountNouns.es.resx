@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="Noun.Item.One" xml:space="preserve">
+    <value>elemento</value>
+  </data>
+  <data name="Noun.Item.Many"><value>elementos</value></data>
+  <data name="Zero.Item"><value>No se encontraron elementos</value></data>
+  <data name="Noun.Result.One" xml:space="preserve">
+    <value>resultado</value>
+  </data>
+  <data name="Noun.Result.Many"><value>resultados</value></data>
+  <data name="Zero.Result"><value>No se encontraron resultados</value></data>
+  <data name="Noun.User.One" xml:space="preserve">
+    <value>usuario</value>
+  </data>
+  <data name="Noun.User.Many"><value>usuarios</value></data>
+  <data name="Zero.User"><value>No se encontraron usuarios</value></data>
+  <data name="Noun.Error.One" xml:space="preserve">
+    <value>error</value>
+  </data>
+  <data name="Noun.Error.Many"><value>errores</value></data>
+  <data name="Zero.Error"><value>No se encontraron errores</value></data>
+  <data name="Noun.Warning.One" xml:space="preserve">
+    <value>advertencia</value>
+  </data>
+  <data name="Noun.Warning.Many"><value>advertencias</value></data>
+  <data name="Zero.Warning"><value>No se encontraron advertencias</value></data>
+  <data name="Noun.File.One" xml:space="preserve">
+    <value>archivo</value>
+  </data>
+  <data name="Noun.File.Many"><value>archivos</value></data>
+  <data name="Zero.File"><value>No se encontraron archivos</value></data>
+  <data name="Noun.Record.One" xml:space="preserve">
+    <value>registro</value>
+  </data>
+  <data name="Noun.Record.Many"><value>registros</value></data>
+  <data name="Zero.Record"><value>No se encontraron registros</value></data>
+  <data name="Noun.Device.One" xml:space="preserve">
+    <value>dispositivo</value>
+  </data>
+  <data name="Noun.Device.Many"><value>dispositivos</value></data>
+  <data name="Zero.Device"><value>No se encontraron dispositivos</value></data>
+</root>

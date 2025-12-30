@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="Noun.Item.One" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="Zero.Item"><value>未找到项目</value></data>
+  <data name="Classifier.Item.Zh"><value>个</value></data>
+  <data name="Noun.Result.One" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="Zero.Result"><value>未找到结果</value></data>
+  <data name="Classifier.Result.Zh"><value>个</value></data>
+  <data name="Noun.User.One" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="Zero.User"><value>未找到用户</value></data>
+  <data name="Classifier.User.Zh"><value>个</value></data>
+  <data name="Noun.Error.One" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="Zero.Error"><value>未找到错误</value></data>
+  <data name="Classifier.Error.Zh"><value>个</value></data>
+  <data name="Noun.Warning.One" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Zero.Warning"><value>未找到警告</value></data>
+  <data name="Classifier.Warning.Zh"><value>个</value></data>
+  <data name="Noun.File.One" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="Zero.File"><value>未找到文件</value></data>
+  <data name="Classifier.File.Zh"><value>个</value></data>
+  <data name="Noun.Record.One" xml:space="preserve">
+    <value>记录</value>
+  </data>
+  <data name="Zero.Record"><value>未找到记录</value></data>
+  <data name="Classifier.Record.Zh"><value>个</value></data>
+  <data name="Noun.Device.One" xml:space="preserve">
+    <value>设备</value>
+  </data>
+  <data name="Zero.Device"><value>未找到设备</value></data>
+  <data name="Classifier.Device.Zh"><value>个</value></data>
+</root>

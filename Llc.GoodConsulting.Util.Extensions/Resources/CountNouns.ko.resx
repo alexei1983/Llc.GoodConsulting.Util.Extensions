@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="Noun.Item.One" xml:space="preserve">
+    <value>항목</value>
+  </data>
+  <data name="Zero.Item"><value>항목을(를) 찾을 수 없습니다</value></data>
+  <data name="Classifier.Item.Ko"><value>개</value></data>
+  <data name="Noun.Result.One" xml:space="preserve">
+    <value>결과</value>
+  </data>
+  <data name="Zero.Result"><value>결과을(를) 찾을 수 없습니다</value></data>
+  <data name="Classifier.Result.Ko"><value>건</value></data>
+  <data name="Noun.User.One" xml:space="preserve">
+    <value>사용자</value>
+  </data>
+  <data name="Zero.User"><value>사용자을(를) 찾을 수 없습니다</value></data>
+  <data name="Classifier.User.Ko"><value>명</value></data>
+  <data name="Noun.Error.One" xml:space="preserve">
+    <value>오류</value>
+  </data>
+  <data name="Zero.Error"><value>오류을(를) 찾을 수 없습니다</value></data>
+  <data name="Classifier.Error.Ko"><value>건</value></data>
+  <data name="Noun.Warning.One" xml:space="preserve">
+    <value>경고</value>
+  </data>
+  <data name="Zero.Warning"><value>경고을(를) 찾을 수 없습니다</value></data>
+  <data name="Classifier.Warning.Ko"><value>건</value></data>
+  <data name="Noun.File.One" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="Zero.File"><value>파일을(를) 찾을 수 없습니다</value></data>
+  <data name="Classifier.File.Ko"><value>개</value></data>
+  <data name="Noun.Record.One" xml:space="preserve">
+    <value>레코드</value>
+  </data>
+  <data name="Zero.Record"><value>레코드을(를) 찾을 수 없습니다</value></data>
+  <data name="Classifier.Record.Ko"><value>건</value></data>
+  <data name="Noun.Device.One" xml:space="preserve">
+    <value>장치</value>
+  </data>
+  <data name="Zero.Device"><value>장치을(를) 찾을 수 없습니다</value></data>
+  <data name="Classifier.Device.Ko"><value>대</value></data>
+</root>

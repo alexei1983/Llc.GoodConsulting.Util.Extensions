@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="Noun.Item.One" xml:space="preserve">
+    <value>ero</value>
+  </data>
+  <data name="Noun.Item.Many"><value>eroj</value></data>
+  <data name="Zero.Item"><value>Neniuj eroj trovitaj</value></data>
+  <data name="Noun.Result.One" xml:space="preserve">
+    <value>rezulto</value>
+  </data>
+  <data name="Noun.Result.Many"><value>rezultoj</value></data>
+  <data name="Zero.Result"><value>Neniuj rezultoj trovitaj</value></data>
+  <data name="Noun.User.One" xml:space="preserve">
+    <value>uzanto</value>
+  </data>
+  <data name="Noun.User.Many"><value>uzantoj</value></data>
+  <data name="Zero.User"><value>Neniuj uzantoj trovitaj</value></data>
+  <data name="Noun.Error.One" xml:space="preserve">
+    <value>eraro</value>
+  </data>
+  <data name="Noun.Error.Many"><value>eraroj</value></data>
+  <data name="Zero.Error"><value>Neniuj eraroj trovitaj</value></data>
+  <data name="Noun.Warning.One" xml:space="preserve">
+    <value>averto</value>
+  </data>
+  <data name="Noun.Warning.Many"><value>avertoj</value></data>
+  <data name="Zero.Warning"><value>Neniuj avertoj trovitaj</value></data>
+  <data name="Noun.File.One" xml:space="preserve">
+    <value>dosiero</value>
+  </data>
+  <data name="Noun.File.Many"><value>dosieroj</value></data>
+  <data name="Zero.File"><value>Neniuj dosieroj trovitaj</value></data>
+  <data name="Noun.Record.One" xml:space="preserve">
+    <value>registro</value>
+  </data>
+  <data name="Noun.Record.Many"><value>registroj</value></data>
+  <data name="Zero.Record"><value>Neniuj registroj trovitaj</value></data>
+  <data name="Noun.Device.One" xml:space="preserve">
+    <value>aparato</value>
+  </data>
+  <data name="Noun.Device.Many"><value>aparatoj</value></data>
+  <data name="Zero.Device"><value>Neniuj aparatoj trovitaj</value></data>
+</root>

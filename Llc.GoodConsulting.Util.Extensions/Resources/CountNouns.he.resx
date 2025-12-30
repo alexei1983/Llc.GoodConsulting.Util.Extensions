@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="Noun.Item.One" xml:space="preserve">
+    <value>פריט</value>
+  </data>
+  <data name="Noun.Item.Many" xml:space="preserve">
+    <value>פריטים</value>
+  </data>
+  <data name="Zero.Item.Masc" xml:space="preserve">
+    <value>לא נמצא פריטים</value>
+  </data>
+  <data name="Zero.Item.Fem" xml:space="preserve">
+    <value>לא נמצאה פריטים</value>
+  </data>
+  <data name="Noun.Result.One" xml:space="preserve">
+    <value>תוצאה</value>
+  </data>
+  <data name="Noun.Result.Many" xml:space="preserve">
+    <value>תוצאות</value>
+  </data>
+  <data name="Zero.Result.Masc" xml:space="preserve">
+    <value>לא נמצא תוצאות</value>
+  </data>
+  <data name="Zero.Result.Fem" xml:space="preserve">
+    <value>לא נמצאה תוצאות</value>
+  </data>
+  <data name="Noun.User.One" xml:space="preserve">
+    <value>משתמש</value>
+  </data>
+  <data name="Noun.User.Many" xml:space="preserve">
+    <value>משתמשים</value>
+  </data>
+  <data name="Zero.User.Masc" xml:space="preserve">
+    <value>לא נמצא משתמשים</value>
+  </data>
+  <data name="Zero.User.Fem" xml:space="preserve">
+    <value>לא נמצאה משתמשים</value>
+  </data>
+  <data name="Noun.Error.One" xml:space="preserve">
+    <value>שגיאה</value>
+  </data>
+  <data name="Noun.Error.Many" xml:space="preserve">
+    <value>שגיאות</value>
+  </data>
+  <data name="Zero.Error.Masc" xml:space="preserve">
+    <value>לא נמצא שגיאות</value>
+  </data>
+  <data name="Zero.Error.Fem" xml:space="preserve">
+    <value>לא נמצאה שגיאות</value>
+  </data>
+  <data name="Noun.Warning.One" xml:space="preserve">
+    <value>אזהרה</value>
+  </data>
+  <data name="Noun.Warning.Many" xml:space="preserve">
+    <value>אזהרות</value>
+  </data>
+  <data name="Zero.Warning.Masc" xml:space="preserve">
+    <value>לא נמצא אזהרות</value>
+  </data>
+  <data name="Zero.Warning.Fem" xml:space="preserve">
+    <value>לא נמצאה אזהרות</value>
+  </data>
+  <data name="Noun.File.One" xml:space="preserve">
+    <value>קובץ</value>
+  </data>
+  <data name="Noun.File.Many" xml:space="preserve">
+    <value>קבצים</value>
+  </data>
+  <data name="Zero.File.Masc" xml:space="preserve">
+    <value>לא נמצא קבצים</value>
+  </data>
+  <data name="Zero.File.Fem" xml:space="preserve">
+    <value>לא נמצאה קבצים</value>
+  </data>
+  <data name="Noun.Record.One" xml:space="preserve">
+    <value>רשומה</value>
+  </data>
+  <data name="Noun.Record.Many" xml:space="preserve">
+    <value>רשומות</value>
+  </data>
+  <data name="Zero.Record.Masc" xml:space="preserve">
+    <value>לא נמצא רשומות</value>
+  </data>
+  <data name="Zero.Record.Fem" xml:space="preserve">
+    <value>לא נמצאה רשומות</value>
+  </data>
+  <data name="Noun.Device.One" xml:space="preserve">
+    <value>התקן</value>
+  </data>
+  <data name="Noun.Device.Many" xml:space="preserve">
+    <value>התקנים</value>
+  </data>
+  <data name="Zero.Device.Masc" xml:space="preserve">
+    <value>לא נמצא התקנים</value>
+  </data>
+  <data name="Zero.Device.Fem" xml:space="preserve">
+    <value>לא נמצאה התקנים</value>
+  </data>
+</root>

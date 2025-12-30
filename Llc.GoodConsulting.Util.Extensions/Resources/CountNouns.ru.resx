@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="Noun.Item.One" xml:space="preserve">
+    <value>элемент</value>
+  </data>
+  <data name="Noun.Item.Few"><value>элемента</value></data>
+  <data name="Noun.Item.Many"><value>элементов</value></data>
+  <data name="Zero.Item"><value>Результаты не найдены</value></data>
+  <data name="Noun.Result.One" xml:space="preserve">
+    <value>результат</value>
+  </data>
+  <data name="Noun.Result.Few"><value>результата</value></data>
+  <data name="Noun.Result.Many"><value>результатов</value></data>
+  <data name="Zero.Result"><value>Результаты не найдены</value></data>
+  <data name="Noun.User.One" xml:space="preserve">
+    <value>пользователь</value>
+  </data>
+  <data name="Noun.User.Few"><value>пользователя</value></data>
+  <data name="Noun.User.Many"><value>пользователей</value></data>
+  <data name="Zero.User"><value>Результаты не найдены</value></data>
+  <data name="Noun.Error.One" xml:space="preserve">
+    <value>ошибка</value>
+  </data>
+  <data name="Noun.Error.Few"><value>ошибки</value></data>
+  <data name="Noun.Error.Many"><value>ошибок</value></data>
+  <data name="Zero.Error"><value>Результаты не найдены</value></data>
+  <data name="Noun.Warning.One" xml:space="preserve">
+    <value>предупреждение</value>
+  </data>
+  <data name="Noun.Warning.Few"><value>предупреждения</value></data>
+  <data name="Noun.Warning.Many"><value>предупреждений</value></data>
+  <data name="Zero.Warning"><value>Результаты не найдены</value></data>
+  <data name="Noun.File.One" xml:space="preserve">
+    <value>файл</value>
+  </data>
+  <data name="Noun.File.Few"><value>файла</value></data>
+  <data name="Noun.File.Many"><value>файлов</value></data>
+  <data name="Zero.File"><value>Результаты не найдены</value></data>
+  <data name="Noun.Record.One" xml:space="preserve">
+    <value>запись</value>
+  </data>
+  <data name="Noun.Record.Few"><value>записи</value></data>
+  <data name="Noun.Record.Many"><value>записей</value></data>
+  <data name="Zero.Record"><value>Результаты не найдены</value></data>
+  <data name="Noun.Device.One" xml:space="preserve">
+    <value>устройство</value>
+  </data>
+  <data name="Noun.Device.Few"><value>устройства</value></data>
+  <data name="Noun.Device.Many"><value>устройств</value></data>
+  <data name="Zero.Device"><value>Результаты не найдены</value></data>
+</root>
